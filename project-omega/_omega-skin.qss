@@ -249,7 +249,7 @@ QTextEdit#qteChat {
 	qproperty-documentTitle: "type...";
 	qproperty-sizeAdjustPolicy: AdjustToContents;
 	qproperty-cursor: IBeam;
-	color: #444;
+	color: #FFF;
 	padding-left: 5px;
 	padding-right: 5px;
 	padding-top: 0px;
@@ -414,10 +414,11 @@ QTreeView::item#qtwPlugins:selected:!active {
 /* * * * * * * * * * * * * * */
 
 QTextBrowser {
-	background: #FFF;
+	background: #292C33;
 	padding: 0px;
 	margin: 0px;
 	font-size: 14px;
+	color: #FFF;
 	border: 0; }
 
 .log-time {
@@ -468,7 +469,7 @@ QScrollBar {
 
 QScrollBar::handle:horizontal,
 QScrollBar::handle:vertical {
-	background-color: #3D97F2; }
+	background-color: #444; }
 
 QScrollBar::handle:hover,
 QScrollBar::handle:hover {
@@ -476,7 +477,7 @@ QScrollBar::handle:hover {
 
 QScrollBar::handle:pressed,
 QScrollBar::handle:pressed {
-	background-color: #3077BF; }
+	background-color: #3787D9; }
 
 QScrollBar::left-arrow, QScrollBar::right-arrow, QScrollBar::up-arrow, QScrollBar::down-arrow, QScrollBar::sub-line, QScrollBar::add-line, QScrollBar::add-page, QScrollBar::sub-page, QAbstractScrollArea::corner {
 	background: transparent; }
