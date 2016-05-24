@@ -291,7 +291,7 @@ QAbstractItemView:item {
    =========== */
 
 QTextEdit {
-  background: #2C323D;
+  background: #FFF;
   color: #444;
   border: 0px;
   padding-left: 0px;
@@ -304,7 +304,7 @@ QTextEdit#qteChat {
   qproperty-placeholderText: "type...";
   qproperty-cursor: IBeam;
   color: #8392A9;
-  background: #2C323D;
+  background: #FFF;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 0px;
@@ -417,7 +417,7 @@ QTreeView::item:selected:active {
    =================== */
 
 QTextBrowser {
-  background: #2C323D;
+  background: #FFF;
   color: #8392A9;
   padding: 0px;
   margin: 0px;
